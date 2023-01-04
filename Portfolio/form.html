@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>feedback form</title>
+</head>
+<body>
+    <h2>Website Feedback Form</h2>
+    <form action="/abc.php" method="post">
+        Enter your name - <input type="text" placeholder="Type here">
+        Enter your email - <input type="text" placeholder="Type here">
+        Password - <input type="password" placeholder="Type here">
+        <br><br><hr>
+        <lable for="id1">
+            <big>Choose Your Profession</big><br> <br>
+            <input type="radio" value="student" id="101" name="class">Student
+        </lable>
+        <lable for="id2">
+            <input type="radio" value="employed" id="102" name="class">Employed
+        </lable>
+        <lable for="id3">
+            <input type="radio" value="umemployed" id="103" name="class">Unemployed
+        </lable>
+        <br><br><hr>
+        <big>Select your background subjects</big><br><br>
+        <lable for="science">
+            <input type="checkbox" value="science" id="104" name="subject">Science <br>
+        </lable>
+        <lable for="commerce">
+            <input type="checkbox" value="commerce" id="105" name="subject">Commerce <br>
+        </lable>
+        <lable for="arts">
+            <input type="checkbox" value="arts" id="105" name="subject">Arts <br>
+        </lable>
+        <br><hr>
+        <big>Select your city</big>
+        <select name="city">
+            <option value="delhi">Delhi</option>
+            <option value="gwalior">Gwalior</option>
+            <option value="pune">Pune</option>
+            <option value="jodhpur">Jodhpur</option>  
+        </select>
+<br><br><hr>
+<big>Write your Feedback briefly</big><br>
+<textarea name="feedback" id="107" placeholder="Enter feedback" rows="7"></textarea>
+<br>
+<input type="submit" value="submit">
+
+
+    </form>
+    
+</body>
+</html>
